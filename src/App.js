@@ -36,7 +36,7 @@ function Button({ textColor, bgColor, onClick, children }) {
 
 function Steps() {
   const [step, setStep] = useState(1);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   function handlePrevious() {
     if (step > 1) setStep((s) => s - 1);
